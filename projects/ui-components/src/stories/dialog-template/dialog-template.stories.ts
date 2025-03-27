@@ -8,13 +8,13 @@ type Story = StoryObj<LaunchDialogComponent>
 export const Default: Story = {
   args: {
     title: 'Testing',
-    width: '200px'
+    width: '400px'
   }
 }
 
 // TODO Check for better implementation
 const meta: Meta<LaunchDialogComponent> = {
-  title: 'Launch Dialog template',
+  title: 'Dialog template',
   component: LaunchDialogComponent,
   tags:['autodocs'],
   decorators: [
