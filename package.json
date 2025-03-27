@@ -8,7 +8,7 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "storybook": "ng run ui-components:storybook",
-    "build-storybook": "storybook build --output-dir=storybook-static",
+    "build-storybook": "ng run ui-components:build-storybook --config-dir=projects/ui-components/.storybook",
     "deploy-storybook": "gh-pages -d storybook-static"
   },
   "private": true,
