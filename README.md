@@ -1,5 +1,7 @@
 # Angular UI Custom Components (WIP)
 
+This project is being hosted via GitHub Pages: [text](https://miguelpelegrina.github.io/angular-material-custom-components/)
+
 This is a project intended for personal use and educational purpose.
 I decided to start this project because I
 
