@@ -9,7 +9,17 @@ import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { FormElement } from './models/form-element.model';
 import { onTimeInput } from '../utils/time-utils';
 
-// TODO Abstraction
+// TODO
+// Abstractions:
+// - Separate form from dialog
+// - Header
+// - Footer
+// - Button row of buttons --> default cancel and confirm, allow for custom implementation for example for login and register
+// - CSS classes instead of Bootstrap
+// More customization:
+// - width and height of elements
+// - How form elements are split in rows
+// - Ideally, we would just loop through form elements?
 @Component({
   selector: 'ui-dialog-template',
   imports: [MatDialogModule],
