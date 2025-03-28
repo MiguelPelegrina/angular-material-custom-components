@@ -1,3 +1,17 @@
+# Angular UI Custom Components (WIP)
+
+This is a project intended for personal use and educational purpose.
+I decided to start this project because I
+
+- want to learn more about managing libraries and testing UI component
+- was implementing really similar components in different projects
+- was finding solutions to certain problems and implementing them only in the most recent project
+- customizing Angular Material can sometimes get really annoying and I wanted to compare alternatives
+- more often then not you need wrapper with default values to reduce duplication and maintain flexibility
+- tried Storybook before, but never really got to use
+
+So, this project is the result of my attempt to create customizable and reusable composed/wrapper UI components with different UI libraries.
+
 # AngularMaterialCustomComponents
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.1.5.
